@@ -1,5 +1,5 @@
 {
-  "name": "golden-retriever",
+  "name": "@llhovind/golden-retriever",
   "version": "1.0.0",
   "description": "Resolver that finds properties from [deeply] nested objects/arrays given a path or pattern. It also collects properties from multiple branches, without throwing Type Errors.",
   "type": "module",
@@ -12,11 +12,22 @@
     "url": "git+https://github.com/llhovind/golden-retriever.git"
   },
   "keywords": [
-    "resolve", "property resolve", "resolve path", "resolve nested",
-    "accessor", "property accessor", "optional property", "wildcard resolve",
-    "collector", "property collector",
-    "tree traversal", "object traversal", "nested", "deep nested",
-    "mitigate type error", "esm"
+    "resolve",
+    "property resolve",
+    "resolve path",
+    "resolve nested",
+    "accessor",
+    "property accessor",
+    "optional property",
+    "wildcard resolve",
+    "collector",
+    "property collector",
+    "tree traversal",
+    "object traversal",
+    "nested",
+    "deep nested",
+    "mitigate type error",
+    "esm"
   ],
   "author": "Lawrence L Hovind",
   "license": "MIT",
@@ -26,5 +37,8 @@
   "homepage": "https://github.com/llhovind/golden-retriever#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
