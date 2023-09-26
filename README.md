@@ -4,12 +4,12 @@ Resolver that finds properties from [deeply] nested objects/arrays, including se
 
 ## Install
 
-    npm install golden-retriever --save
+    npm install @llhovind/golden-retriever --save
 
 ## Example
 
 ```js
-import resolve from 'golden-retriever';
+import resolve from '@llhovind/golden-retriever';
 
 resolve('regions.east.manager.name', someObj);
 ```
@@ -93,7 +93,7 @@ This will retrieve the 'name' property from any 'regions' as well as any 'region
 
 Any graph (nested object structure with self references) will not be a problem. Golden-Retriever uses a Set to track all objects visited and will not revisit an object during an invocation.
 
-This does have a uniques feature though. When calling:
+This does have a unique feature though. When calling:
 
     resolve('**.orders[].customer', company)
 
